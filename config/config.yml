@@ -1,0 +1,14 @@
+database:
+  host: localhost
+  username: your_username
+  password: your_password
+  dbname: dbname
+  charset: utf8mb4
+
+app:
+  debug: true
+  session_timeout: 120 # in minutes
+
+security:
+  xss_protection: true
+  csrf_protection: true
